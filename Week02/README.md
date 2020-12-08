@@ -368,6 +368,6 @@ https://github.com/Go-000/Go-000/issues/8
 
 Github 使用教程： https://u.geekbang.org/lesson/51?article=294701
 
- [示例](./main.go)
+ [点击查看作业](./main.go)
  
  在 dao 层 `Wrap` 一下，在最终的 business 层打印出错的堆栈信息，使用 `Cause` 提取出原始错误，根据其返回给调用者相应的提示信息

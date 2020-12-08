@@ -1,0 +1,5 @@
+# github.com/firfly/taliatoolkits v0.0.0-20201208080644-a0cc6370e8cf
+## explicit
+github.com/firfly/taliatoolkits/errgroup
+# golang.org/x/sync v0.0.0-20190423024810-112230192c58
+golang.org/x/sync/errgroup
