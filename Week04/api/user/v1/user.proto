@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package user.v1;
+
+option go_package = "Week04/api/user/v1;v1";
+
+
+service User {
+    rpc RegisterUser (RegisterUserRequest) returns (RegisterUserReply) {}
+}
+
+message RegisterUserRequest {
+    string name = 1;
+    int32 age = 2;
+}
+
+message RegisterUserReply {
+    int32 id = 1;
+}
